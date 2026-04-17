@@ -40,7 +40,7 @@ class App:
         # Первичная отрисовка
         self.update_fractal()
 
-    def update_fractal(self, event=None):
+    def update_fractal(self, event=None):   # pylint: disable=unused-argument
         width = self.canvas_width
         height = self.canvas_height
         max_iter = self.iter_scale.get()
